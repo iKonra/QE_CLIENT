@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "konra.hacksito.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "XrayMixin",
+    "BlockMixin",
+    "ChatTimestampMixin",
+    "NoPushMixin",
+    "MouseMixin",
+    "CameraMixin",
+    "InGameHudMixin",
+    "EntityMixin",
+    "DisconnectedScreenMixin",
+    "LightmapTextureManagerMixin",
+    "GameRendererMixin",
+    "WorldRendererMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "CameraAccessor",
+    "MinecraftClientAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

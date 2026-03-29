@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "hacksito",
+  "version": "${version}",
+  "name": "Hacksito",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hacksito/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "konra.hacksito.client.HacksitoDataGenerator"
+    ],
+    "client": [
+      "konra.hacksito.client.HacksitoClient"
+    ],
+    "main": [
+      "konra.hacksito.Hacksito"
+    ]
+  },
+  "mixins": [
+    "hacksito.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
