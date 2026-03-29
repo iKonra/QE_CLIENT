@@ -32,11 +32,6 @@ El uso de modificaciones en servidores multijugador puede resultar en **baneo pe
 * PlayerESP
 * MobESP
 
-### En desarrollo
-
-* PlayerESP
-* MobESP
-
 ---
 
 ## Extras
