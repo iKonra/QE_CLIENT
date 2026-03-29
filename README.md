@@ -14,6 +14,8 @@ El uso de modificaciones en servidores multijugador puede resultar en **baneo pe
 * Swimming
 * Speed
 * NoFall
+* NoPush
+* NoHurtCam
 * Jesus
 * HighJump
 * FullBright
@@ -26,6 +28,9 @@ El uso de modificaciones en servidores multijugador puede resultar en **baneo pe
 * Parkour
 * AutoSprint
 * AutoEat
+* AutoReconnect
+* PlayerESP
+* MobESP
 
 ### En desarrollo
 
